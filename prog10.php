@@ -4,11 +4,14 @@ function removeDuplicates($array) {
     return $result;
 }
 
-$sortedList = [1, 1, 2, 2, 3, 3, 4, 5, 5]; // Example sorted list
+$sortedList = [1, 1, 2, 2, 3, 3, 4, 5, 5];
 $uniqueList = removeDuplicates($sortedList);
 
-echo "Original List: ";
+echo "Original List: <br><pre>";
 print_r($sortedList);
-echo "<br>Unique List: ";
+echo "</pre>";
+
+echo "Unique List: <br><pre>";
 print_r($uniqueList);
+echo "</pre>";
 ?>
