@@ -1,0 +1,231 @@
+1. Who do we know as the father of PHP?
+Rasmus Lerdorf who created the language in 1994. 
+
+2. What did the acronym PHP originally stand for?
+Initially, PHP stood for Personal Home Page, but it now stands for the recursive acronym for PHP: Hypertext Preprocessor.
+
+3. What are some of the common applications of PHP?
+PHP is commonly used to perform 
+System functions. It can create, open, read, write, and close to files on a system.
+Handling forms. It can help. Collect data from files, save data to a file, send data through email, return data to the user, etc.
+Tasks that involve adding, deleting, and modify elements within your database
+Accessing cookies variables and set cookies. 
+User restriction to access some pages of your website 
+Data encryption
+4. What is the recommended PHP version?
+The latest versions of PHP are 7.2.30, 7.3.17, and 7.4.5, which was released in April 2020
+5. Which programming language is PHP similar to?
+PHP is influenced by Perl and C. As such, PHP syntax resembles these languages. 
+6. What is the PHP scripting engine called?
+PHP is powered by the scripting engine Zend Engine 2.
+7. What is the main difference between PHP4 and PHP5?
+PHP4 uses Zend Engine 1 and doesn't support the OOPs concept, while PHP5 supports the OOPs concept and uses Zend Engine 2.
+
+8. Is PHP a case sensitive language?
+Not fully. PHP is partly a case sensitive language where the variable names are case-sensitive but function names are not. Also, user-defined functions aren’t case sensitive but the rest of the language is.
+
+9. What are the popular frameworks in PHP?
+Some popular PHP frameworks are:
+
+CodeIgniter
+CakePHP
+Symfony
+Zend Framework
+Yii 2
+10. Name the popular Content Management Systems (CMS) in PHP.
+WordPress
+Joomla
+Magento
+Drupal
+11. What is PEAR in PHP?
+PEAR stands for PHP Extension and Application Repository and is an online repository of free, open-source PHP software packages. It was created as a centralized platform to manage, develop and distribute reusable PHP components. PEAR provides various packages and functions, from database and networking to file system access and remote process control. It also includes robust tools to help developers quickly and easily create web-based applications and services.
+
+
+
+12. What is the difference between static and dynamic websites?
+Static websites are stored in a file system and served as is to the user. These websites are not dynamic and cannot be changed without manually editing the files on the server. On the other hand, dynamic websites are content-rich and can be altered based on various external factors. For example, content may be changed on the fly based on user input, or the content may be generated with the help of a database.
+
+13. What are the characteristics of PHP variables?
+PHP variables are values stored in memory that the user can manipulate. They store data for a specific purpose and can be used in calculations and other processes. PHP variables can be declared with keywords such as 'var,' 'int,' 'float,' and' array.' After announcing a variable, it can then be used to store a value.
+
+14. What are the rules for naming a PHP variable?
+Naming a variable in PHP is simple, but some rules must be followed. Variable names must begin with a letter or an underscore, followed by any number of letters, numbers, or underscores. Additionally, PHP variable names are case sensitive, meaning that a variable named 'myVariable' is distinct from 'my variable.' Furthermore, variable names cannot use PHP keywords such as 'int,' 'float,' or 'array.'
+
+15. What are the rules to determine the "truth" of any value not already of the Boolean type?
+In PHP, the "truth" of any value is determined by the following rules: a value is considered "true" if it is a non-zero number or a non-empty string. Any other matters, such as an empty string or zero value, are considered false. Additionally, an array is considered accurate if it contains at least one element and false if it is open. Null is also regarded as wrong.
+
+16. What is NULL?
+NULL is a particular type of value in PHP. It represents a variable with no value and is usually used to denote the absence of a deal. 
+
+17. How do you define a constant in PHP?
+A constant is a value in PHP that cannot be changed once it has been defined. Constants are defined using the define() function, which takes two arguments: the name of the constant and the value to assign it. Constants can be limited to storing numbers, strings, or arrays, and they are most often used to store configuration values that need to be accessible from different parts of a program. 
+
+18. What is the purpose of the constant() function?
+The constant() function is a valuable tool that can be used to define a constant. This value remains unchanged throughout a script's lifetime and can be used as a reference for various calculations. 
+
+19. What are the differences between PHP constants and variables?
+One of the most significant differences between PHP constants and variables is their scope. In PHP, constants are global, meaning they are accessible in all parts of an application, while variables are generally only accessible in the area where they were declared. Additionally, constants must be explicitly defined before they can be used, while variables can be said without initializing them.
+
+20. What is the purpose of the break and continue statement?
+Break and continue statements are two fundamental concepts of programming. A break statement is used to terminate a loop or switch statement immediately. In contrast, a continue statement is used to skip the current iteration of the loop and continue with the next iteration.
+21. What is the difference between single quoted string and double quoted string?
+The primary difference between single quoted strings and double-quoted strings is that single quoted strings are literal and do not allow for the evaluation of variables, while double-quoted strings do.
+22. How to concatenate two strings in PHP?
+Concatenating two strings in PHP is straightforward. To do so, use the concatenation operator, which is a period (.). 
+24. What is the difference between "echo" and "print" in PHP?
+ The primary difference between "echo" and "print" in PHP is that "echo" is a language construct, and "print" is a function. "echo" also has slightly better performance and is more succinct, making it preferable in situations where performance and size matter. 
+25. Name some of the functions in PHP.
+Some of the most commonly used functions in PHP include strlen(), str_replace(), urlencode(), and md5(). These functions can perform various tasks, such as counting the number of characters in a string, replacing the contents of a string, encoding a URL string, and generating a hash value.
+
+26. How can PHP interact with HTML?
+PHP is designed to interact with HTML. It’s possible to embed PHP scripts in an HTML page without a problem and transfer information from HTML to PHP.
+
+27. How can you embed PHP code in an HTML page?
+When embedding PHP code with an HTML file, we must use the .php file extension for that file. This allows your web server to send the file to PHP for processing. If the webserver is configured to use a different extension for PHP files, that extension must be used instead.
+
+28. How does PHP interact with Javascript?
+Because PHP is a server-side language and Javascript is a client-side language, these two cannot interact. But we can exchange variables since it’s possible to generate Javascript code via PHP, which can be executed by the browser and specific variables can be passed back to PHP via the URL.
+
+29. Name the different types of variables in PHP.
+There are eight data types used to construct variables in PHP:
+
+Integers: these are whole numbers without a decimal point, like 4195.
+Doubles: are floating-point numbers, like 3.14159 or 49.1.
+Booleans: come with only possible values of either true or false. 
+NULL: is a special type with only one value: NULL. 
+Strings: are sequences of characters. 
+Arrays: are named and indexed set of other values. 
+Objects: are f programmer-defined classes, which can include both other kinds of values and functions that are specific to the class. 
+Resources: are special variables that refer to resources external to PHP (such as database connections).
+
+30. List the main types of errors in PHP and explain their differences.
+There are three main error types in PHP:
+
+Notices. These are non-critical errors that can occur during the script execution. These are not visible to users. Accessing an undefined variable is an example of a 'Notice'.
+Warnings. These are more critical than Notices, but just like them, Warnings don't interrupt the script execution. However, these are visible to the user by default. Example: include() a file that doesn't exist.
+Fatal. This is the most critical error type which, when occurs, immediately terminates the script execution. Accessing a property of a non-existent object or require() a non-existent file is an example of this error type
+31. What are 'Traits'?
+A mechanism that lets you create reusable code in PHP and similar languages where multiple inheritances are not supported is called Traits. It's not possible to instantiate it on its own.
+
+32. Can the value of a constant change during the script’s execution?
+No, the value of a constant cannot be changed once it’s declared during the PHP execution.
+
+33. Name and define the three scope levels available in PHP.
+Private – Detectable only in its own class
+Public – Can be seen by any other code accessing the class
+Protected – Can be seen by classes parent(s) and classes that extend the current class
+34. What do we mean by ‘escaping to PHP’?
+The PHP parsing engine must be able to distinguish PHP code from other page elements. The mechanism to achieve this is called ‘escaping to PHP’.
+
+35. How many types of an array are there in PHP?
+Three types of an array are present in PHP:
+
+Indexed array, which is an array with a numeric key.
+An associative array is where each key has its specific value.
+A multidimensional array contains one or more arrays within itself.
+
+36. What are the two most common ways to start and finish a PHP code block?
+When writing a PHP block of code, the two most common ways to start and finish it are by using the opening tag.
+
+37. What is the meaning of a final class and a final method?
+A final class is a class that cannot be extended or inherited. Any methods, instance variables, and constants inside the course cannot be modified or used in another category.
+
+JAVASCRIPT
+1. What are the differences between Java and JavaScript?
+Java is an object Oriented Programming language while JavaScript is a client-side scripting language. Both of them are totally different from each other.
+
+Java: It is one of the most popular programming languages. It is an object-oriented programming language and has a virtual machine platform that allows you to create compiled programs that run on nearly every platform. Java promised, “Write Once, Run Anywhere”.
+JavaScript: It is a light-weighted programming language (“scripting language”) for developing interactive web pages. It can insert dynamic text into the HTML elements. JavaScript is also known as the browser’s language.
+To give yourself an extra edge, consider taking our JavaScript Course, which not only covers core topics but also provides interview preparation tips, practice problems, and insights from industry experts.
+
+2. What are Data Types in JavaScript?
+JavaScript data types are categorized into two parts i.e. primitive and non-primitive types.
+
+Primitive Data Type: The predefined data types provided by JavaScript language are known as primitive data type. Primitive data types are also known as in-built data types.
+Numbers
+Strings
+Boolean
+Symbol
+Undefined
+Null
+BigInt
+Non-Premitive Data Type: The data types that are derived from primitive data types are known as non-primitive data types. It is also known as derived data types or reference data types.
+Objects
+Functions
+Arrays
+3. Which symbol is used for comments in JavaScript? 
+Comments prevent the execution of statements. Comments are ignored while the compiler executes the code. There are two type of symbols to represent comments in JavaScript:
+
+Double slash: It is known as a single-line comment.
+// Single line comment
+Slash with Asterisk: It is known as a multi-line comment.
+/* 
+Multi-line comments
+. . .
+*/
+4. What would be the result of 3+2+”7″?
+Here, 3 and 2 behave like an integer, and “7” behaves like a string. So 3 plus 2 will be 5. Then the output will be 5+”7″ = 57.
+
+5. What is the use of the isNaN function?
+The number isNan function determines whether the passed value is NaN (Not a number) and is of the type “Number”. In JavaScript, the value NaN is considered a type of number. It returns true if the argument is not a number, else it returns false.
+
+6. Which is faster in JavaScript and ASP script?
+JavaScript is faster compared to ASP Script. JavaScript is a client-side scripting language and does not depend on the server to execute. The ASP script is a server-side scripting language always dependable on the server.
+
+7. What is negative infinity?
+The negative infinity is a constant value represents the lowest available value. It means that no other number is lesser than this value. It can be generate using a self-made function or by an arithmetic operation. JavaScript shows the NEGATIVE_INFINITY value as -Infinity.
+
+8. Which company developed JavaScript?
+Netscape developed JavaScript and was created by Brenden Eich in the year of 1995.
+
+9. What are global variables? 
+In contrast, global variables are the variables that define outside of functions. These variables have a global scope, so they can be used by any function without passing them to the function as parameters. 
+
+
+10. What do you mean by NULL in JavaScript?
+The NULL value represents that no value or no object. It is known as empty value/object.
+
+11. What is a prompt box?
+The prompt box is a dialog box with an optional message prompting the user to input some text. It is often used if the user wants to input a value before entering a page. It returns a string containing the text entered by the user, or null.
+
+12. What is the ‘this’ keyword in JavaScript?
+Functions in JavaScript are essential objects. Like objects, it can be assign to variables, pass to other functions, and return from functions. And much like objects, they have their own properties. ‘this’ stores the current execution context of the JavaScript program. Thus, when it use inside a function, the value of ‘this’ will change depending on how the function is defined, how it is invoked, and the default execution context.
+
+13. Explain the working of timers in JavaScript. Also explain the drawbacks of using the timer, if any.
+The timer executes some specific code at a specific time or any small amount of code in repetition to do that you need to use the functions setTimout, setInterval, and clearInterval. If the JavaScript code sets the timer to 2 minutes and when the times are up then the page displays an alert message “times up”. The setTimeout() method calls a function or evaluates an expression after a specified number of milliseconds.
+
+14. What is the difference between ViewState and SessionState?
+ViewState: It is specific to a single page in a session.
+SessionState: It is user specific that can access all the data on the web pages.
+16. How to submit a form using JavaScript?
+You can use document.form[0].submit()method to submit the form in JavaScript.
+
+15. Does JavaScript support automatic type conversion? 
+Yes, JavaScript supports automatic type conversion.
+16. What are all the looping structures in JavaScript?
+while loop: A while loop is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition. The while loop can be thought of as a repeating if statement.
+for loop: A for loop provides a concise way of writing the loop structure. Unlike a while loop, for statement consumes the initialization, condition and increment/decrement in one line thereby providing a shorter, easy to debug structure of looping.
+do while: A do-while loop is similar to while loop with the only difference that it checks the condition after executing the statements, and therefore is an example of Exit Control Loop.
+17. What is called Variable typing in JavaScript ?
+The variable typing is the type of variable used to store a number and using that same variable to assign a “string”.
+
+Geeks = 42;
+Geeks = "ST.ANNES";
+18. How to convert the string of any base to integer in JavaScript?
+In JavaScript, parseInt() function is used to convert the string to an integer. This function returns an integer of base which is specified in second argument of parseInt() function. The parseInt() function returns Nan (not a number) when the string doesn’t contain number.
+
+19. Explain how to detect the operating system on the client machine?
+To detect the operating system on the client machine, one can simply use navigator.appVersion or navigator.userAgent property. The Navigator appVersion property is a read-only property and it returns the string that represents the version information of the browser.
+
+20. What are the types of Pop up boxes available in JavaScript?
+There are three types of pop boxes available in JavaScript.
+
+Alert
+Confirm
+Prompt
+21. What is the difference between an alert box and a confirmation box?
+An alert box will display only one button which is the OK button. It is used to inform the user about the agreement has to agree. But a Confirmation box displays two buttons OK and cancel, where the user can decide to agree or not.
+
+22. What is the disadvantage of using innerHTML in JavaScript?
+There are lots of disadvantages of using the innerHTML in JavaScript as the content will replace everywhere. If you use += like “innerHTML = innerHTML + ‘html’” still the old content is replaced by HTML. It preserves event handlers attached to any DOM elements.
+
